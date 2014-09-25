@@ -2,14 +2,14 @@ Yelpper
 =======
 HOURS SPENT : 16
 
-<b>Search results page<b><br>
+<b>Search results page</b><br>
 <br>
 Table rows should be dynamic height according to the content height<br>
 Custom cells should have the proper Auto Layout constraints<br>
 Search bar should be in the navigation bar (doesn't have to expand to show location like the real Yelp app does).<br>
 Optional: infinite scroll for restaurant results <br>
 
-</b>Filter page<b><br><br>
+</b>Filter page</b><br><br>
 The filters you should actually have are: category, sort (best match, distance, highest rated), radius (meters), deals (on/off).<br>
 The filters table should be organized into sections as in the mock.<br>
 You can use the default UISwitch for on/off states. <br>
