@@ -1,6 +1,6 @@
 Yelpper
 =======
-HOURS SPENT : 16
+<b>HOURS SPENT</b> : 16
 
 <b>SEARCH RESULTS PAGE</b><br>
 <br>
