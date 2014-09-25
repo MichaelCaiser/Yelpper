@@ -14,8 +14,12 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    MainViewController *mainViewController = [[MainViewController alloc]init];
+    [[UINavigationBar appearance] setBarTintColor:[UIColor colorWithRed:0.8 green:0 blue:0.02 alpha:1]];
+
+    UINavigationController *navigationViewController = [[UINavigationController alloc] initWithRootViewController:mainViewController];
     
-    self.window.rootViewController = [[MainViewController alloc] init];
+    self.window.rootViewController = navigationViewController;
     
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
